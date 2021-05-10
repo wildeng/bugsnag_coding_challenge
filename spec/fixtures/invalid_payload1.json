@@ -1,0 +1,13 @@
+{
+  "projectId": "1235",
+  "severity": "warning",
+  "message": "red alert",
+
+  "metadata": {
+    "customField": "customValue",
+    "customEntity": {
+      "id": "123",
+      "description": "sampleMetadata"
+    }
+  }
+}

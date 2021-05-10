@@ -1,0 +1,31 @@
+{
+  "projectId": "1234",
+  "severity": "error",
+  "message": "an error occurred",
+
+  "stacktrace": [
+    {
+      "file": "Crash.java",
+      "methods": "crashyMethod",
+      "line": 10
+    },
+    {
+      "file": "Main.java",
+      "methods": "main",
+      "line": 4
+    },
+    {
+      "file": "Utils.java",
+      "methods": "parse",
+      "line": 14
+    }
+  ],
+
+  "metadata": {
+    "customField": "customValue",
+    "customEntity": {
+      "id": "123",
+      "description": "sampleMetadata"
+    }
+  }
+}
